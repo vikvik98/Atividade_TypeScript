@@ -29,4 +29,23 @@ var Estados;
 })(Estados || (Estados = {}));
 for (var i = 0; i < Object.keys(Estados).length / 2; i++)
     console.log(Estados[i]);
+//QUINTA
+function exibir() {
+    var letras = [];
+    for (var _i = 0; _i < arguments.length; _i++) {
+        letras[_i] = arguments[_i];
+    }
+    for (var _a = 0, letras_1 = letras; _a < letras_1.length; _a++) {
+        var letra = letras_1[_a];
+        console.log(letra);
+    }
+}
+exibir("A", "B");
+//SEXTA
+var ola = function () { return "Olá"; };
+console.log(ola());
+//SETIMA
+var numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+numeros = numeros.filter(function (x) { return x % 2 == 0; });
+console.log(numeros);
 //# sourceMappingURL=app.js.map

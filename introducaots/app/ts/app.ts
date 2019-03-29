@@ -42,3 +42,27 @@ enum Estados {"PI", "CE", "MA"}
 
 for( let i = 0; i < Object.keys(Estados).length / 2; i++)
     console.log(Estados[i])
+
+
+//QUINTA
+
+function exibir(...letras : string[]){
+    
+    for (let letra of letras)
+        console.log(letra)
+}
+
+exibir("A", "B");
+
+//SEXTA
+
+var ola = () => "Olá";
+
+console.log(ola());
+
+//SETIMA
+let numeros: Array<number> = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+numeros = numeros.filter(x => x%2==0)
+
+console.log(numeros)
